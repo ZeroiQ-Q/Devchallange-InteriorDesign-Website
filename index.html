@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interior consultant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="label"><p class="label-content">This interior</p></div>
+      <div class="nav-right">
+        <a class="navigation-items home desktop" href="#">Home</a>
+        <a class="navigation-items desktop" href="#">Collection</a>
+        <a class="navigation-items desktop" href="#">About</a>
+        <a class="navigation-items desktop" href="#">Contact</a>
+
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button" for="menu-toggle">
+          <i
+            class="fa-solid fa-bars open-menu"
+            style="color: #ffffff; font-size: 2rem"
+          ></i>
+
+          <i
+            class="fa-solid fa-xmark close-button"
+            style="color: #ffffff; font-size: 2.6rem"
+          ></i>
+
+          <div class="mobile-menu">
+            <a class="navigation-items home" href="#">Home</a>
+            <a class="navigation-items" href="#">Collection</a>
+            <a class="navigation-items" href="#">About</a>
+            <a class="navigation-items" href="#">Contact</a>
+          </div>
+        </label>
+      </div>
+    </nav>
+
+    <main>
+      <div class="content">
+        <div class="heading">Modern interior</div>
+        <div class="description">
+          A full-Service residential & commercial interior design and staging
+          company offering professional organizing & eco-services.
+        </div>
+        <div class="read-more">Read more &nbsp; &#8702;</div>
+      </div>
+      <div class="image-area">
+        <img class="image" src="./photo1.png" alt="" />
+        <div class="designer-info">
+          <div class="dev-profile-info">
+            <div>
+              <img class="dev-picture" src="./photo2.png" alt="" />
+            </div>
+
+            <div class="profile">
+              <p class="dev-name">Aliza Webber</p>
+              <p class="dev-post">Interior designer</p>
+            </div>
+          </div>
+          <div class="dev-description">Designed in 2020 by Aliza Webber</div>
+        </div>
+      </div>
+    </main>
+    <p class="dev-info">
+      created by <strong><u>Sushant Bhandari</u></strong> - devChallanges.io
+    </p>
+  </body>
+</html>
